@@ -9,6 +9,14 @@
             "port": 5005,
             "preLaunchTask": "run-tomcat",
             "postDebugTask": "stop-tomcat"
+        },
+        {
+            "type": "chrome",
+            "name": "Launch Chrome without cache",
+            "request": "launch",
+            "url": "http://localhost:8080/random",
+            "webRoot": "${workspaceFolder}",
+            "runtimeArgs": ["--disable-cache"]
         }
     ]
 }

@@ -5,7 +5,6 @@ public class Aleatorio {
     private int num = 0;
     private int max = 0;
     private int intentos = 0;
-    private boolean iniciado = false;
     private String message = "";
 
     public Aleatorio(int maximo){
@@ -45,7 +44,7 @@ public class Aleatorio {
                     message = "Te has quedado corto";
                 }
                 else{
-                    message = "Enahorabuena, lo has acertado!!!";
+                    message = "Enhorabuena, lo has acertado!!!";
                     acierto = true;
                 }
             }
